@@ -12,6 +12,8 @@ This is a simple love calculator that takes two names as input and returns the p
 - Simple and easy to use
 - Calculates the percentage of compatibility between two names
 - Shows a result message based on the calculated score.
+- Set URL params both input values.
+
 
 ## Screenshots
 ![Love Calculator](./img/Screenshot.png)
