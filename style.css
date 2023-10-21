@@ -1,0 +1,127 @@
+@import url('./responsive.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 0px 10px;
+    line-height: 8rem;
+}
+
+header img{
+    margin: -15px 0;
+}
+
+header h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+header p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #777;
+    margin-bottom: -45px;
+}
+.lovecard{
+    background: #fff;
+    box-shadow: 0 0 0.5rem rgba(0,0,0,.2);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    padding: 15px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+.lovecard .nameField{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lovecard .yourName, .lovecard .partnerName{
+    display: flex;
+    flex-direction: column;
+}
+
+.lovecard .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button{
+    background: #ff0057;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.btn button:hover{
+    background: #ff4382;
+}
+.nameField label{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.nameField input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    margin: 10px 0;
+    /* font-weight: 600; */
+}
+
+.result {
+    background: #fff;
+    box-shadow: 0 0 0.1rem rgba(0,0,0,.2);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    padding: 15px;
+    /* width: 50%; */
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #000;
+    font-weight: bolder;
+    display: none;
+    /* visibility: hidden; */
+    /* position: absolute;
+    left: 50%;
+    top: 75px;
+    transform: translateX(-50%); */
+}
+#quote {
+    text-align: center;
+    padding: 15px 10px;
+}
+footer{
+    text-align: center;
+    padding: 20px 10px;
+}
+
+footer a{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ff4382;
+    text-decoration: none;
+}

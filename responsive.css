@@ -1,0 +1,40 @@
+/* responsive */
+@media (max-width: 768px){
+    header{
+        line-height: 2rem !important;
+        text-align: center !important;
+        margin-top: 20px !important;
+    }
+    header h1{
+        font-size: 1.2rem !important;
+    }
+    header p{
+        font-size: 1.2rem !important;
+        margin-bottom: 0 !important;
+    }
+    .lovecard{
+        width: 95% !important;
+        
+    }
+    .lovecard .nameField{
+        flex-direction: column !important;
+        justify-content:left !important;
+        align-items:normal !important;
+    }
+    .lovecard img {
+        width: 20% !important;
+        margin: 0 auto !important;
+        margin-top: -10px !important;
+    }
+    .btn button{
+        font-size: 2rem !important;
+       font-weight: bold;
+        width: 100%;
+    }
+    .result{
+        width: 100% !important;
+    }
+    .nameField label{
+        font-size: 1.2rem !important;
+    }
+}
